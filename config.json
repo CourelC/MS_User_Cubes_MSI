@@ -1,0 +1,30 @@
+{
+  "Environment": "localhost",
+  "ServerPort": 3000,
+  "Endpoints": {
+    "SiteExample": "http://localhost:3000/"
+  },
+  "Databases": {
+    "MySQL": {
+      "User_MS_Db_Cubes": {
+        "Read": {
+          "Hostname": "localhost",
+          "Name": "User_MS_Db_Cubes",
+          "Username": "root",
+          "Password": "",
+          "Port": "3307",
+          "Parameter": "?parseTime=true"
+        },
+        "Write": {
+          "Hostname": "localhost",
+          "Name": "User_MS_Db_Cubes",
+          "Username": "root",
+          "Password": "",
+          "Port": "3307",
+          "Parameter": "?parseTime=true"
+        }
+      }
+    }
+  }
+}
+
