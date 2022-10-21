@@ -13,9 +13,11 @@ COPY . .
 
 RUN go build -o /dist
 
-# This container exposes port 8080 to the outside world
-#EXPOSE $ANALYTICS_MS_PORT
 EXPOSE 3000
+
+#Exec le prog
+ #RUN go run main.go
 
 # Run the executable
 CMD [ "/dist" ]
+
